@@ -1,72 +1,72 @@
-html{
-  height: 100%;
-}
-body{
-  height: 100%;
-   margin: 0;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background: linear-gradient(rgb(56, 255, 94),rgb(218, 131, 175));
-   text-align: center;
-    }
-div{
-
-  font-family: VT323;
-  font-size: 30px;
-}
-#mainDiv{
-background: linear-gradient(rgb(167, 164, 161),rgb(126, 126, 126));
-  outline-style: solid;
-  outline-width: medium;
-  outline-color: rgb(54, 54, 54);
-  padding: 20px;
-  background-color: grey;
-  box-shadow:15px -8px black;
-  width: 200px;
-  
-
-}
-h2{
-padding: 50px;
-}
-h4{
-  background: linear-gradient(rgb(167, 164, 161),rgb(126, 126, 126));
-  outline-width: thin;
-  outline-color: black;
-  outline-style: inherit;
-  text-decoration: underline;
-  text-decoration-style: solid;
+html {
+    height: 100%;
 }
 
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: linear-gradient(rgb(56, 255, 94), rgb(218, 131, 175));
+    text-align: center;
+}
+
+div {
+    font-family: VT323;
+    font-size: 30px;
+}
+
+#mainDiv {
+    background: linear-gradient(rgb(167, 164, 161), rgb(126, 126, 126));
+    outline-style: solid;
+    outline-width: medium;
+    outline-color: rgb(54, 54, 54);
+    padding: 20px;
+    background-color: grey;
+    box-shadow: 15px -8px black;
+    width: 200px;
+}
+
+h2 {
+    padding: 50px;
+}
+
+h4 {
+    background: linear-gradient(rgb(167, 164, 161), rgb(126, 126, 126));
+    outline-width: thin;
+    outline-color: black;
+    outline-style: inherit;
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
 
 .btn {
-  background: linear-gradient(rgb(167, 164, 161),rgb(126, 126, 126));
-  width: 40px;
-  height: 40px;
-  outline-style: inherit;
-  outline-width: thin;
-  outline-color: grey;
-  font-family: inherit;
-  font-size: inherit;
-  margin: 2px;
-  border-radius: 50%;
+    background: linear-gradient(rgb(167, 164, 161), rgb(126, 126, 126));
+    width: 40px;
+    height: 40px;
+    outline-style: inherit;
+    outline-width: thin;
+    outline-color: grey;
+    font-family: inherit;
+    font-size: inherit;
+    margin: 2px;
+    border-radius: 50%;
 }
 
-
-.longbtn{
-  width: 84px;
-  height: 40px;
+.longbtn {
+    width: 84px;
+    height: 40px;
 }
 
-#txtBox{
-  outline-style: solid;
-  outline-width: thin;
-  outline-color: black;
-  height: 40px;
-  background: linear-gradient(rgb(181, 181, 181),rgb(231, 231, 231));
-  text-align: right;
-
+#txtBox {
+    outline-style: solid;
+    outline-width: thin;
+    outline-color: black;
+    height: 40px;
+    background: linear-gradient(rgb(181, 181, 181), rgb(231, 231, 231));
+    text-align: right;
 }
+
 .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
     outline: 0;
 }
