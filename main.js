@@ -1,7 +1,11 @@
+var z = 0;
 
 function keyPress(key){
   checkLength();
-  document.getElementById("txtBox").innerHTML += key;
+  if(z===0){
+    document.getElementById("txtBox").innerHTML += key;
+  }
+
 }
 
 function opPress(key){
@@ -10,6 +14,7 @@ function opPress(key){
   var regex = /[+/*-]/g;
   if(ans.length>0 && !ans.match(regex)){
     document.getElementById("txtBox").innerHTML += key;
+    z = 0;
   }
 
 }
@@ -20,6 +25,7 @@ function equalsPress(){
   if(ans.length>0){
     ans = math.eval(ans);
     document.getElementById("txtBox").innerHTML = ans;
+    z = 1;
   }
 
 }
