@@ -4,6 +4,8 @@ function keyPress(key) {
     checkLength();
     if (z === 0) {
         document.getElementById("txtBox").innerHTML += key;
+    } else if (z !== 0){
+        document.getElementById("txtBox").innerHTML += "";
     }
 
 }
@@ -25,13 +27,20 @@ function equalsPress() {
     if (ans.length > 0) {
         ans = math.eval(ans);
         document.getElementById("txtBox").innerHTML = ans;
-        z = 1;
-    }
+        checkLength();
+        if(document.getElementById("txtBox").innerHTML.length>0){
+          z = 1;
+        }
 
+
+    }
+      //checkLength();
 }
 
 function ACPress() {
+
     document.getElementById("txtBox").innerHTML = "";
+    z = 0;
 }
 
 function checkLength() {
@@ -43,3 +52,5 @@ function checkLength() {
 
 
 }
+
+//bugs 1.reset freezes app. 2.if answer is longer than 12 char doesnt cut off checkLength.
