@@ -9,9 +9,12 @@
   <script type="text/javascript" src="main.js"></script>
   <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
 
+
   <link rel="stylesheet" href="stylesheet.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=VT323">
+
 
 
 
@@ -21,8 +24,8 @@
 
 <body>
 <div>
-<h6>JAVASCRIPT CALCULATOR</h6>
-<br/>
+<h4>JAVASCRIPT CALCULATOR</h4>
+
 <p id="txtBox"></p>
 <button class="btn" onclick="ACPress()">AC</button>
 <button class="btn" onclick="ACPress()">CE</button>
@@ -47,6 +50,8 @@
 <button class="btn" id="longbtn" onclick="keyPress('0');">0</button>
 <button class="btn" onclick="keyPress('.');">.</button>
 <button class="btn"></button>
+
+
 </div>
 
 

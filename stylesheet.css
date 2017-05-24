@@ -1,34 +1,42 @@
-button {
-  width: 40px;
-  height: 40px;
-  outline-style: inset;
-  outline-width: medium;
-  outline-color: black;
-}
-
 div{
-  outline-style: groove;
+  outline-style: solid;
   outline-width: medium;
   outline-color: black;
   padding: 20px;
-
   text-align: center;
   background-color: grey;
   margin-left  : 550px;
   margin-right : 550px;
   margin-top : 50px;
+  font-family: VT323;
+  font-size: 30px;
 }
 
+.btn {
+  width: 40px;
+  height: 40px;
+  outline-style: inherit;
+  outline-width: medium;
+  outline-color: black;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+
 #longbtn{
-  width: 83px;
+  width: 92px;
   height: 40px;
 }
 
 #txtBox{
-  text-align: center;
-  outline-style: groove;
+  outline-style: inherit;
   outline-width: medium;
   outline-color: black;
-  width: 100px;
+  height: 40px;
   background-color: white;
+  text-align: right;
+
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: 0;
 }
