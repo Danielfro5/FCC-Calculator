@@ -1,9 +1,11 @@
 
 function keyPress(key){
+  checkLength();
   document.getElementById("txtBox").innerHTML += key;
 }
 
 function opPress(key){
+  checkLength();
   var ans = document.getElementById("txtBox").innerHTML.slice(-1);
   var regex = /[+/*-]/g;
   if(ans.length>0 && !ans.match(regex)){
@@ -27,13 +29,13 @@ function ACPress(){
 }
 
 function checkLength(){
-  for(i=0;i<2;){
     var ans = document.getElementById("txtBox").innerHTML;
-    if(ans.length>22){
+    if(ans.length>16){
       document.getElementById("txtBox").innerHTML = "";
-    }
   }
+
+
 
 }
 
-//BUGS:AFTER = HIT, NEXT INPUT MUST BE OPERATOR OR RESET KEY //IF MORE THAN 22 IN LENGTH ERROR DIGIT
+//FIX:AFTER = HIT, NEXT INPUT MUST BE OPERATOR OR RESET KEY

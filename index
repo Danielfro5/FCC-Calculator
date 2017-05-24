@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=VT323">
-
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
 
 
 
@@ -24,7 +24,6 @@
 
 <body>
 <div>
-<h4>JAVASCRIPT CALCULATOR</h4>
 
 <p id="txtBox"></p>
 <button class="btn" onclick="ACPress()">AC</button>
@@ -45,15 +44,17 @@
 <button class="btn" onclick="keyPress('1');">1</button>
 <button class="btn" onclick="keyPress('2');">2</button>
 <button class="btn" onclick="keyPress('3');">3</button>
-<button class="btn" onclick="equalsPress();">=</button>
-<br/>
-<button class="btn" id="longbtn" onclick="keyPress('0');">0</button>
 <button class="btn" onclick="keyPress('.');">.</button>
-<button class="btn"></button>
+
+<br/>
+<button class="btn longbtn" onclick="keyPress('0');">0</button>
+<button class="btn longbtn" onclick="equalsPress();">=</button>
+
 
 
 </div>
 
+<h2>Floating CalculatorJS - By Daniel Frost</h2>
 
 
 </body>
