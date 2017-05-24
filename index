@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html>
+
+<meta charset="UTF-8">
+
+<head>
+  <script type="text/javascript" src="math.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+
+
+  <title>Javascript Calculator</title>
+
+</head>
+
+<body>
+<div>
+<h6>JAVASCRIPT CALCULATOR</h6>
+<br/>
+<p id="txtBox"></p>
+<button class="btn" onclick="ACPress()">AC</button>
+<button class="btn" onclick="ACPress()">CE</button>
+<button class="btn" onclick="opPress('/');">÷</button>
+<button class="btn" onclick="opPress('*');">*</button>
+<br/>
+<button class="btn" onclick="keyPress('7');">7</button>
+<button class="btn" onclick="keyPress('8');">8</button>
+<button class="btn" onclick="keyPress('9');">9</button>
+<button class="btn" onclick="opPress('-');">-</button>
+<br/>
+<button class="btn" onclick="keyPress('4');">4</button>
+<button class="btn" onclick="keyPress('5');">5</button>
+<button class="btn" onclick="keyPress('6');">6</button>
+<button class="btn" onclick="opPress('+');">+</button>
+<br/>
+<button class="btn" onclick="keyPress('1');">1</button>
+<button class="btn" onclick="keyPress('2');">2</button>
+<button class="btn" onclick="keyPress('3');">3</button>
+<button class="btn" onclick="equalsPress();">=</button>
+<br/>
+<button class="btn" id="longbtn" onclick="keyPress('0');">0</button>
+<button class="btn" onclick="keyPress('.');">.</button>
+<button class="btn"></button>
+</div>
+
+
+
+</body>
+</html>
