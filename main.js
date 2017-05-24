@@ -30,7 +30,7 @@ function ACPress(){
 
 function checkLength(){
     var ans = document.getElementById("txtBox").innerHTML;
-    if(ans.length>16){
+    if(ans.length>12){
       document.getElementById("txtBox").innerHTML = "";
   }
 

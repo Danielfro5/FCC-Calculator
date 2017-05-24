@@ -6,24 +6,24 @@ body{
    margin: 0;
    background-repeat: no-repeat;
    background-attachment: fixed;
-background: linear-gradient(rgb(56, 255, 94),rgb(218, 131, 175));
-text-align: center;
-}
+   background: linear-gradient(rgb(56, 255, 94),rgb(218, 131, 175));
+   text-align: center;
+    }
 div{
+
+  font-family: VT323;
+  font-size: 30px;
+}
+#mainDiv{
 background: linear-gradient(rgb(167, 164, 161),rgb(126, 126, 126));
   outline-style: solid;
   outline-width: medium;
   outline-color: rgb(54, 54, 54);
   padding: 20px;
-
   background-color: grey;
-  margin-left  : 550px;
-  margin-right : 550px;
-  margin-top : 50px;
-  font-family: VT323;
-  font-size: 30px;
-
   box-shadow:15px -8px black;
+  width: 200px;
+  
 
 }
 h2{
@@ -54,13 +54,13 @@ h4{
 
 
 .longbtn{
-  width: 96px;
+  width: 84px;
   height: 40px;
 }
 
 #txtBox{
-  outline-style: inherit;
-  outline-width: medium;
+  outline-style: solid;
+  outline-width: thin;
   outline-color: black;
   height: 40px;
   background: linear-gradient(rgb(181, 181, 181),rgb(231, 231, 231));
