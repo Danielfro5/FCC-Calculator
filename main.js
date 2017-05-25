@@ -34,7 +34,6 @@ function equalsPress() {
 
 
     }
-      //checkLength();
 }
 
 function ACPress() {
@@ -52,5 +51,3 @@ function checkLength() {
 
 
 }
-
-//bugs 1.reset freezes app. 2.if answer is longer than 12 char doesnt cut off checkLength.
